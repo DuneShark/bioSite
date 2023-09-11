@@ -15,7 +15,7 @@ body {
     transition: 0.3s;
     border-radius: 10px;
     background-color: #D6B8F8;
-    width: 1500px;
+    width: 1400px;
     height: auto;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -97,12 +97,12 @@ h3 {
 
 .row-top {
     padding-top: 5em;
-    padding-left: 19em;
+    padding-left: 15.5em;
 }
 
 .row {
     padding-top: 5em;
-    padding-left: 48em;
+    padding-left: 42em;
     padding-bottom: 8em;
 }
 
