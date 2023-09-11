@@ -1,4 +1,88 @@
-figcaption {
+header {
+    background-color: #F0BDEF;
+    color: white;
+    font-size: 40px;
     text-align: center;
+    padding: 10px;
+    font-family: 'Kabel Bk Bt', sans-serif;
 }
 
+body {
+    background-color: #FFE3FF;
+}
+
+h4 {
+    font-family: 'Kabel Bk Bt', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+img {
+    max-width: 500px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    padding: 30px;
+}
+
+.column {
+    float: left;
+    align-content: center;
+    padding: 0 40px;
+}
+
+.row {
+    padding-top: 10em;
+    padding-bottom: 10em;
+    padding-left: 8em;
+    display: flex;
+    margin: 0 -5px;
+    align-content: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    transition: 0.3s;
+    border-radius: 10px;
+    background-color: #D6B8F8;
+    width: auto;
+    height: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+
+.container {
+    height: 10em;
+}
+
+.container-card {
+    font-size: 15px;
+    padding: 2px 16px;
+}
+
+footer {
+    background-color: #F0BDEF;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    padding-right: 10px;
+    font-style: italic;
+    font-family: sans-serif, Arial, Helvetica;
+}

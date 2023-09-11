@@ -1,6 +1,9 @@
 <!-- Tanner Glaser : bioSite Hobbies Page -->
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    @import url('https://fonts.cdnfonts.com/css/kabel-bk-bt');
+</style>
 
 <head>
     <title>Hobbies Page</title>
@@ -14,30 +17,55 @@
 
     <div id="container">
 
-        <div class="hobbies-left" style="width: 45%; float: left;">
-            <ul>
-                <li>Video Games</li>
-                <li>Drawing and Painting</li>
-                <li>Playing with my Cats</li>
-                <li>Playing the Clarinet</li>
-                <li>Going on Walks</li>
-            </ul>
+        <div class="row-top">
+
+            <div class="card-left">
+
+                <div class="card-left-title">
+                    Hobbies
+                </div>
+
+                <div class="card-left-content">
+                    <ul>
+                        <li>Video Games</li>
+                        <li>Drawing and Painting</li>
+                        <li>Playing with my Cats</li>
+                        <li>Playing the Clarinet</li>
+                        <li>Going on Walks</li>
+                    </ul>
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="hobbies-right" style="width: 40%; float: right;">
+        <div class="row">
 
             <div class="column">
+                <div class="card">
+                    <img src="Images/Video%20Games.jpg" alt="Video Games">
+                    <div class="container-card">
+                        <h4><b>Video Games</b></h4>
+                    </div>
+                </div>
+            </div>
 
-                <figure>
-                    <img src="#" alt="Video Games" style="width 100%">
-                </figure>
-                <figure>
-                    <img src="#" alt="Drawing and Painting" style="width 100%">
-                </figure>
-                <figure>
-                    <img src="#" alt="Clarinet" style="width 100%">
-                </figure>
+            <div class="column">
+                <div class="card">
+                    <img src="Images/Art%20Supplies.jpg" alt="Drawing and Painting">
+                    <div class="container-card">
+                        <h4><b>Drawing and Painting</b></h4>
+                    </div>
+                </div>
+            </div>
 
+            <div class="column">
+                <div class="card">
+                    <img src="Images/Marching%20Band.jpg" alt="Clarinet">
+                    <div class="container-card">
+                        <h4><b>Playing my Clarinet</b></h4>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -45,6 +73,7 @@
     </div>
 
     <footer>
+        <p style="float: left">© 2023 Glaser</p>
         <a href="../index.html">Back To Home Page</a>
     </footer>
 </body>

@@ -1,0 +1,131 @@
+header {
+    background-color: #F0BDEF;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Kabel Bk Bt', sans-serif;
+}
+
+body {
+    background-color: #FFE3FF;
+}
+
+h4 {
+    font-family: 'Kabel Bk Bt', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.row-top {
+    padding-top: 5em;
+    padding-left: 50em;
+}
+
+.row {
+    padding-top: 5em;
+    padding-left: 6em;
+    padding-bottom: 8em;
+}
+
+.row-top:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    align-content: center;
+    padding: 0 40px;
+}
+
+.card-left {
+    transition: 0.3s;
+    border-radius: 10px;
+    background-color: #D6B8F8;
+    width: 500px;
+    height: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-left-title {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 60px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Kabel Bk Bt', sans-serif;
+}
+
+.card-left-content {
+    padding: 2px 16px;
+    font-family: 'Kabel Bk Bt', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.container-card {
+    font-size: 15px;
+    padding: 2px 16px;
+}
+
+.card-left:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+.card {
+    transition: 0.3s;
+    border-radius: 10px;
+    background-color: #D6B8F8;
+    width: auto;
+    height: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    max-width: 500px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    padding: 30px;
+}
+
+footer {
+    background-color: #F0BDEF;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    font-weight: 400;
+    font-family: 'Kabel Bk Bt', sans-serif;
+    float: right;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    padding-right: 10px;
+    font-style: italic;
+    font-family: sans-serif, Arial, Helvetica;
+}
